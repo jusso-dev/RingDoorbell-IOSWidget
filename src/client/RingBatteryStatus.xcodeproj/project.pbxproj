@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFC39B33256D1EB900B74E75 /* RingBatteryStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC39B32256D1EB900B74E75 /* RingBatteryStatusApp.swift */; };
+		CFC39B35256D1EB900B74E75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC39B34256D1EB900B74E75 /* ContentView.swift */; };
+		CFC39B37256D1EBA00B74E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC39B36256D1EBA00B74E75 /* Assets.xcassets */; };
+		CFC39B3A256D1EBA00B74E75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC39B39256D1EBA00B74E75 /* Preview Assets.xcassets */; };
+		CFC39B81256D1F6300B74E75 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC39B48256D1EEC00B74E75 /* WidgetKit.framework */; };
+		CFC39B82256D1F6300B74E75 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC39B4A256D1EEC00B74E75 /* SwiftUI.framework */; };
+		CFC39B85256D1F6300B74E75 /* RingBatteryStatus_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC39B84256D1F6300B74E75 /* RingBatteryStatus_Widget.swift */; };
+		CFC39B87256D1F6400B74E75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC39B86256D1F6400B74E75 /* Assets.xcassets */; };
+		CFC39B8B256D1F6400B74E75 /* RingBatteryStatus-WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CFC39B80256D1F6300B74E75 /* RingBatteryStatus-WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC39B89256D1F6400B74E75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFC39B27256D1EB800B74E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC39B7F256D1F6300B74E75;
+			remoteInfo = "RingBatteryStatus-WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFC39B5B256D1EED00B74E75 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CFC39B8B256D1F6400B74E75 /* RingBatteryStatus-WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CFC39B2F256D1EB900B74E75 /* RingBatteryStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingBatteryStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC39B32256D1EB900B74E75 /* RingBatteryStatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBatteryStatusApp.swift; sourceTree = "<group>"; };
+		CFC39B34256D1EB900B74E75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFC39B36256D1EBA00B74E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC39B39256D1EBA00B74E75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFC39B3B256D1EBA00B74E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC39B48256D1EEC00B74E75 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		CFC39B4A256D1EEC00B74E75 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		CFC39B80256D1F6300B74E75 /* RingBatteryStatus-WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RingBatteryStatus-WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFC39B84256D1F6300B74E75 /* RingBatteryStatus_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingBatteryStatus_Widget.swift; sourceTree = "<group>"; };
+		CFC39B86256D1F6400B74E75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFC39B88256D1F6400B74E75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFC39B2C256D1EB800B74E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC39B7D256D1F6300B74E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC39B82256D1F6300B74E75 /* SwiftUI.framework in Frameworks */,
+				CFC39B81256D1F6300B74E75 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFC39B26256D1EB800B74E75 = {
+			isa = PBXGroup;
+			children = (
+				CFC39B31256D1EB900B74E75 /* RingBatteryStatus */,
+				CFC39B83256D1F6300B74E75 /* RingBatteryStatus-Widget */,
+				CFC39B47256D1EEC00B74E75 /* Frameworks */,
+				CFC39B30256D1EB900B74E75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFC39B30256D1EB900B74E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFC39B2F256D1EB900B74E75 /* RingBatteryStatus.app */,
+				CFC39B80256D1F6300B74E75 /* RingBatteryStatus-WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFC39B31256D1EB900B74E75 /* RingBatteryStatus */ = {
+			isa = PBXGroup;
+			children = (
+				CFC39B32256D1EB900B74E75 /* RingBatteryStatusApp.swift */,
+				CFC39B34256D1EB900B74E75 /* ContentView.swift */,
+				CFC39B36256D1EBA00B74E75 /* Assets.xcassets */,
+				CFC39B3B256D1EBA00B74E75 /* Info.plist */,
+				CFC39B38256D1EBA00B74E75 /* Preview Content */,
+			);
+			path = RingBatteryStatus;
+			sourceTree = "<group>";
+		};
+		CFC39B38256D1EBA00B74E75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFC39B39256D1EBA00B74E75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFC39B47256D1EEC00B74E75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFC39B48256D1EEC00B74E75 /* WidgetKit.framework */,
+				CFC39B4A256D1EEC00B74E75 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFC39B83256D1F6300B74E75 /* RingBatteryStatus-Widget */ = {
+			isa = PBXGroup;
+			children = (
+				CFC39B84256D1F6300B74E75 /* RingBatteryStatus_Widget.swift */,
+				CFC39B86256D1F6400B74E75 /* Assets.xcassets */,
+				CFC39B88256D1F6400B74E75 /* Info.plist */,
+			);
+			path = "RingBatteryStatus-Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFC39B2E256D1EB800B74E75 /* RingBatteryStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC39B3E256D1EBA00B74E75 /* Build configuration list for PBXNativeTarget "RingBatteryStatus" */;
+			buildPhases = (
+				CFC39B2B256D1EB800B74E75 /* Sources */,
+				CFC39B2C256D1EB800B74E75 /* Frameworks */,
+				CFC39B2D256D1EB800B74E75 /* Resources */,
+				CFC39B5B256D1EED00B74E75 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFC39B8A256D1F6400B74E75 /* PBXTargetDependency */,
+			);
+			name = RingBatteryStatus;
+			productName = RingBatteryStatus;
+			productReference = CFC39B2F256D1EB900B74E75 /* RingBatteryStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFC39B7F256D1F6300B74E75 /* RingBatteryStatus-WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFC39B8C256D1F6400B74E75 /* Build configuration list for PBXNativeTarget "RingBatteryStatus-WidgetExtension" */;
+			buildPhases = (
+				CFC39B7C256D1F6300B74E75 /* Sources */,
+				CFC39B7D256D1F6300B74E75 /* Frameworks */,
+				CFC39B7E256D1F6300B74E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RingBatteryStatus-WidgetExtension";
+			productName = "RingBatteryStatus-WidgetExtension";
+			productReference = CFC39B80256D1F6300B74E75 /* RingBatteryStatus-WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFC39B27256D1EB800B74E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CFC39B2E256D1EB800B74E75 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					CFC39B7F256D1F6300B74E75 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = CFC39B2A256D1EB800B74E75 /* Build configuration list for PBXProject "RingBatteryStatus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFC39B26256D1EB800B74E75;
+			productRefGroup = CFC39B30256D1EB900B74E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC39B2E256D1EB800B74E75 /* RingBatteryStatus */,
+				CFC39B7F256D1F6300B74E75 /* RingBatteryStatus-WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFC39B2D256D1EB800B74E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC39B3A256D1EBA00B74E75 /* Preview Assets.xcassets in Resources */,
+				CFC39B37256D1EBA00B74E75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC39B7E256D1F6300B74E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC39B87256D1F6400B74E75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFC39B2B256D1EB800B74E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC39B35256D1EB900B74E75 /* ContentView.swift in Sources */,
+				CFC39B33256D1EB900B74E75 /* RingBatteryStatusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFC39B7C256D1F6300B74E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC39B85256D1F6300B74E75 /* RingBatteryStatus_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFC39B8A256D1F6400B74E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFC39B7F256D1F6300B74E75 /* RingBatteryStatus-WidgetExtension */;
+			targetProxy = CFC39B89256D1F6400B74E75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFC39B3C256D1EBA00B74E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFC39B3D256D1EBA00B74E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFC39B3F256D1EBA00B74E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RingBatteryStatus/Preview Content\"";
+				DEVELOPMENT_TEAM = TP96JX87AL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RingBatteryStatus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.jussodev.RingBatteryStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFC39B40256D1EBA00B74E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RingBatteryStatus/Preview Content\"";
+				DEVELOPMENT_TEAM = TP96JX87AL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RingBatteryStatus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.jussodev.RingBatteryStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFC39B8D256D1F6400B74E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP96JX87AL;
+				INFOPLIST_FILE = "RingBatteryStatus-Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jussodev.RingBatteryStatus.RingBatteryStatus-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFC39B8E256D1F6400B74E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP96JX87AL;
+				INFOPLIST_FILE = "RingBatteryStatus-Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jussodev.RingBatteryStatus.RingBatteryStatus-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFC39B2A256D1EB800B74E75 /* Build configuration list for PBXProject "RingBatteryStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC39B3C256D1EBA00B74E75 /* Debug */,
+				CFC39B3D256D1EBA00B74E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC39B3E256D1EBA00B74E75 /* Build configuration list for PBXNativeTarget "RingBatteryStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC39B3F256D1EBA00B74E75 /* Debug */,
+				CFC39B40256D1EBA00B74E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFC39B8C256D1F6400B74E75 /* Build configuration list for PBXNativeTarget "RingBatteryStatus-WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC39B8D256D1F6400B74E75 /* Debug */,
+				CFC39B8E256D1F6400B74E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFC39B27256D1EB800B74E75 /* Project object */;
+}
