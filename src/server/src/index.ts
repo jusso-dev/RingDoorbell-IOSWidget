@@ -14,8 +14,7 @@ const ringApi = new RingApi({
 
 const getBatteryInfo = async () => {
     try {
-        const cameras = await ringApi.getCameras();
-        return cameras
+        return await ringApi.getCameras();
     } catch(err) {
         // TODO: log this
         return err
@@ -23,7 +22,7 @@ const getBatteryInfo = async () => {
 }
 
 app.get( "/get-battery", async ( req, res ) => {
-    let batteryInfo:RingCamera[] = await getBatteryInfo()
+    const batteryInfo:RingCamera[] = await getBatteryInfo()
     try {
         res.json(
             {   "batteryStatus": batteryInfo[0].batteryLevel,
