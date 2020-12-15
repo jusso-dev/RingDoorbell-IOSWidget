@@ -1,11 +1,15 @@
 import express from "express"
 import { RingApi, RingCamera } from 'ring-client-api'
 import 'dotenv/config'
+import nocache from 'nocache'
+
+const app = express();
+app.use(nocache())
+app.disable('x-powered-by')
+app.disable('etag')
 
 const { env } = process
-const app = express();
 const port = 5005 || env.PORT
-
 const ringSecret = env.ringSecret
 
 const ringApi = new RingApi({
