@@ -26,7 +26,7 @@ const getBatteryInfo = async () => {
 }
 
 app.get( "/get-battery", async ( req, res ) => {
-    const batteryInfo:RingCamera[] = await getBatteryInfo()
+    let batteryInfo:RingCamera[] = await getBatteryInfo()
     try {
         res.json(
             {   "batteryStatus": batteryInfo[0].batteryLevel,
