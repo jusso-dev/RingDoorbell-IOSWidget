@@ -13,7 +13,8 @@ const port = 5005 || env.PORT
 const ringSecret = env.ringSecret
 
 const ringApi = new RingApi({
-    refreshToken: ringSecret
+    refreshToken: ringSecret,
+    cameraStatusPollingSeconds: 60,
 });
 
 const getBatteryInfo = async () => {
@@ -26,7 +27,7 @@ const getBatteryInfo = async () => {
 }
 
 app.get( "/get-battery", async ( req, res ) => {
-    let batteryInfo:RingCamera[] = await getBatteryInfo()
+    const batteryInfo:RingCamera[] = await getBatteryInfo()
     try {
         res.json(
             {   "batteryStatus": batteryInfo[0].batteryLevel,
