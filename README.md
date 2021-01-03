@@ -1,6 +1,8 @@
 # RingDoorbellWidget
 IOS 14 Swift Widget to show Ring doorbell battery % and health.
 
+![Drag Racing](widget-screenshot.png)
+
 ## Getting started
 
 ```bash
